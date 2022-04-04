@@ -1,0 +1,137 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:900|Roboto+Mono:300,400,700);
+body{
+  /* background-color:  #393E46; */
+  background-color: #1A1A1D;/*#DBE2EF;*/
+  color: black;
+  height: 100%;
+  font-family: 'Times New Roman', Times, serif;
+  overflow-x: hidden;
+}
+
+
+.container-fluid{
+    background-color: #1A1A1D;
+}
+
+.container{
+    position: absolute;
+    /* background-color: rgba(255, 255, 255, 0.6); */
+    margin-top: 3%;
+    left: 10%;
+    color: white;
+    overflow-x: hidden;
+    z-index: 3;
+    padding-bottom: 5%;
+    border-radius: 3%;
+}
+
+.h1{
+  font-size: 1rem;
+}
+
+.img_class{
+  width: 40%; 
+  height:40%;
+}
+
+
+.rectangle_1{
+  position: absolute;
+  background-color: #C3073F;
+  z-index: 2;
+}
+
+.rectangle_2{
+  position: absolute;
+  background-color: #950740;
+  z-index: 1;
+}
+
+.rectangle_3{
+  position: absolute;
+  right: 0;
+  background-color: #C3073F;
+  z-index: 2;
+}
+
+.rectangle_4{
+  position: absolute;
+  right: 0;
+  background-color: #950740;
+  z-index: 1;
+}
+
+
+@media only screen and (max-device-width: 500px) {
+  body{
+    /* background-color:  #393E46; */
+    background-color: #1A1A1D;
+    color: black;
+    width: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    overflow-x: hidden;
+  }
+
+  .container{
+    position: absolute;
+    /* background-color: rgba(255, 255, 255, 0.6); */
+    top: 30%;
+    left: 1%;
+    text-align: center;
+    color: white;
+    overflow-x: hidden;
+    z-index: 3;
+    padding-bottom: 5%;
+    border-radius: 3%;
+  }
+
+  .img{
+    top: 3%;
+    width: 70%; 
+    height:70%;
+  }
+
+  .h1{
+    font-size: 0.6rem;
+  }
+  
+  .h2{
+    font-size: 0.5rem;
+  }
+
+  .h3{
+    font-size: 0.3rem;
+  }
+  
+  .rectangle_1{
+    position: absolute;
+    background-color: #C3073F;
+    z-index: 2;
+  }
+  
+  .rectangle_2{
+    position: absolute;
+    background-color: #950740;
+    z-index: 1;
+  }
+  
+  .rectangle_3{
+    position: absolute;
+    background-color: #C3073F;
+    right: 0;
+    z-index: 2;
+  }
+  
+  .rectangle_4{
+    position: absolute;
+    background-color: #950740;
+    right: 0;
+    z-index: 1;
+  }
+  
+
+}
+
+
+
+
